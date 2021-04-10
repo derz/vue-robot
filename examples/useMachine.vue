@@ -7,7 +7,7 @@ button(
 </template>
 
 <script setup>
-import { useMachine } from '../src';
+import { useMachine } from '../index.js';
 import { createMachine } from 'robot3';
 
 const toggleMachine = createMachine({
