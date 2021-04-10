@@ -1,6 +1,15 @@
 {
   "name": "vue-robot",
   "version": "0.0.0",
+  "files": ["dist"],
+  "main": "./dist/vue-robot.umd.js",
+  "module": "./dist/vue-robot.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-robot.es.js",
+      "require": "./dist/vue-robot.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
