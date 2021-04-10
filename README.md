@@ -1,6 +1,6 @@
 # Vue Robot
 
-Tiny vue wrapper for [Robot](https://github.com/matthewp/robot)
+Vue wrapper for [Robot](https://github.com/matthewp/robot)
 
 ## Example
 
@@ -31,3 +31,18 @@ const { currentState, send } = useMachine(toggleMachine);
 ```
 
 ## API
+
+### `useMachine(machine, initialContext?)`
+
+...
+
+**Arguments**
+
+- `machine` 
+- `initialContext`
+
+**Returns** `{ currentState, send, service}`:
+
+- `currentState` 
+- `send` 
+- `service` 
